@@ -1,78 +1,197 @@
-Experience in EY, August 2020 to present day
-For Volvo, we were tasked with developing their AI strategy, which involved three main streams:
-1.	The Value stream: Determining how AI could enhance Volvo’s products and services, and improve their business processes.
-2.	Governance and People and Skills stream: Establishing the necessary governance changes to integrate AI effectively. This also included understanding the impact on current jobs at Volvo, determining future job roles, and identifying areas where employees might need re-skilling.
-3.	Architecture steam: This was my area of involvement, focused on defining the technical capabilities required across Volvo's entire enterprise architecture to support AI-driven solutions. Initially, Volvo had a simplistic view, seeing AI as just another box within their architecture diagram. However, AI needs to integrate more comprehensively into products, function as standalone services or applications, and either be developed in-house or integrated as plug-ins into existing business processes.
-My role was to build a cohesive and enterprise-wide set of technical capabilities that would allow Volvo to develop and deploy AI-driven solutions effectively.
-The vision I developed and agreed upon with the steering group and senior management translated into four key principles for the architecture design:
-1.	Adaptability with Current and Future AI Developments: We aimed to define the technical capabilities based on the current understanding of AI, incorporating advancements from both academia and industry. Crucially, the capabilities needed to be flexible enough to adapt to future developments in the AI space.
-2.	Federated Deployment: The envisioned system's capabilities would follow a federated approach. This meant that while the capabilities would be defined, configured, and initialized centrally, individual teams, departments, or business units could deploy and use these instances in their specific applications. Despite this distributed usage, control and management would remain centralised, which is not as decentralised as the industry definition of federated deployment but more to a hub-n-spoke approach.
-3.	Robust Foundation: Adherence to the principles of the existing enterprise architecture, referred to as “North Star”, was essential. The architecture needed to be comprehensive, covering all stages of development and deployment without any assumptions. This robust foundation would ensure the capabilities were not just temporary solutions but integral parts of the enterprise architecture that are well-defined and sustainable.
-4.	Responsible Design: Given the particular challenges introduced by AI, it was vital to emphasize transparency and explainability. These features ensure that products are understandable to their operators. Additionally, principles such as sustainability, fairness, and robustness, which were already part of the enterprise architecture design, were to be maintained. However, transparency and explainability were explicitly highlighted as essential elements within this vision to ensure responsible AI design.
-By adhering to these principles, we aimed to establish a coherent and sustainable approach to integrating AI into Volvo's enterprise architecture, ensuring flexibility, robustness, and responsibility in design.
-Over the next three to four months, I focused on assembling the necessary technical capabilities for AI integration into Volvo's systems and solutions. To simplify understanding and tracking developments, we categorized our approach into two streams: Generative AI and Analytical AI (this was the Volvo’s name for Predictive AI).
-For Generative AI, we considered various capabilities such as document parsing and analysis, synthetic data generation, embeddings management (including tokenization and OCR), vector database indexing, prompt engineering, fine-tuning, hosting and cataloguing LLMs, enhancing transparency and explainability, human feedback loop capability, and more. These were envisioned not only as solutions but as enterprise-wide capabilities, meaning they could be built, provisioned, and used across the entire organisation.
-Similarly, for Analytical AI, we outlined essential enterprise-wide capabilities in the traditional domain of AI, which encompasses machine learning. This included building new models, feature creation and storage in a feature store, dataset creation from mixed data sources, feature preparation, and supporting exploratory data analysis. We also developed mechanisms for cataloguing algorithms and tracking previous experiments to capture lessons learned.
-Some capabilities overlapped between Generative and Analytical AI, such as synthetic data generation, feature stores, model catalogues, etc. I’ve also emphasised necessary capabilities to provide transparency and explainability for Analytical AI solutions.
-In summary, I compiled a comprehensive list of AI capabilities, providing detailed explanations on their purpose and how they should be implemented and utilised as enterprise-wide resources. This way, different solutions can instantiate and leverage these AI capabilities effectively.
-We’ve also made sure to account for other services and capabilities already defined within the enterprise architecture, such as application integration, API management, data classification, data management, DevSecOps, and more. These components, though not AI-specific, are crucial for successfully implementing AI solutions. I outlined these foundation services within the architecture diagram I developed for Volvo.
-The next phase of this engagement involved creating an investment plan and an implementation roadmap. Initially, we estimated the costs for implementing the AI-specific capabilities using t-shirt sizing approach. We’ve also estimated the effort necessary to adapt the foundation services to requirements for supporting the AI-specific capabilities, and for this we’ve engaged with different teams within Volvo that were responsible for implementing or had already implemented the foundational services mentioned above.
-For instance, we consulted with the team responsible for API management to ensure these foundational services were adequately prepared to support AI applications. Some services were already fully capable (marked as green), while others required minor adjustments.
-After these consultations, we developed an investment plan detailing the costs associated with deploying these AI capabilities. We then created an implementation roadmap and presented it to the senior executive leadership.
-As a result of our compelling and comprehensive case for the new AI strategy, along with the detailed and clear investment plan, the Senior Executive Leadership team agreed to invest in its implementation. Consequently, I have been reengaged by Volvo to help define the parameters, including the necessary guardrails and guidelines, for implementing and using these technical capabilities. Additionally, I have been asked to further elaborate on the capabilities and develop a more detailed investment plan and roadmap for fully implementing the enterprise architecture aspects of the AI strategy over the next two and a half to three years.
-Bid CoPilot
-I have also worked on a proof of concept (PoC) to enhance the process of creating responses to RFPs by leveraging the experience and knowledge gained from previous submissions. The project was aimed specifically at assisting the government tenders and engagements group within EY's technology consultancy.
-Utilising generative AI, I developed a solution that analysed previously submitted RFPs. This AI-enabled system allowed team members to input their questions and receive tailored responses based on historical data, thereby accelerating the bid creation process.
-Initially, I collaborated with a developer to design and code the solution. However, I eventually took over the project entirely when the developer had to shift to another task. The project reached a stage where our leadership recognised its potential as a valuable tool. The government tenders team was particularly impressed with the results and is eager to adopt it. The solution is slated for internal implementation and production soon.
-Additional to my role as software architect I’ve also led the small development team and also collaborated closely with the Government engagements team to identify areas for improvement in the solution. I also managed expectations from the managing partners and crafted tailored communications to secure their support. This was crucial in ensuring continued development and adoption of the solution as an internal accelerator. Furthermore, we positioned it as a sales process accelerator to demonstrate our expertise in generative AI technology.
-AIB RPA
-As a Software Development Manager, I led a small, globally distributed team of 4 or 5 members to deliver an RPA (Robotic Process Automation) solution for AIB Bank, focusing primarily on customers' applications for new banking products and overall customer relationship management. My responsibilities included managing the team, coordinating with the bank to ensure our solution met their needs, and overseeing the implementation process.
-Our team operated from various locations: India, Singapore, Belfast, Dublin, and Limerick. We successfully streamlined AIB’s business processes through our RPA developments. One of the main challenges I faced was navigating the complexities of the bank's operations, particularly integrating our solution with the existing IT infrastructure and the customer experience team.
-Although AIB already had an RPA framework in place, it was confined to their IT department and had not been extended to the customer experience team. We collaborated with the IT department to deploy the necessary technology, enhancing the customer experience team’s capabilities. The most significant challenge was deploying the RPA solutions in production, as this involved dealing with various external concerns and aligning them with our business process requirements.
-A considerable part of my effort was spent managing different stakeholders within the bank and understanding the implications of their requirements on our deliverables. One notable issue was obtaining test data for our RPA implementation. We needed real or pre-existing customer applications and forms to ensure the accuracy of our robots' output. However, this data was not readily available in a format that facilitated comprehensive testing.
-For instance, testing new card applications was difficult because once an application was processed, we couldn't re-use it for testing. Moreover, creating a comprehensive testing environment with all the necessary business systems involved in the process was a complex task. Despite these challenges, I worked closely with other departments to implement the required systems and establish a proper testing environment.
-Ultimately, this project taught me extensively about the intricacies of the bank’s internal operations and how to effectively deliver a robust RPA solution.
-HSE
+```
+# Experience in EY, August 2020 to present day
+# AI Strategy Development for Large Automotive and Manufacturing Equipment Company
+
+We were tasked with developing the AI strategy for this Large Automotive and Manufacturing Equipment Company, which involved three main streams:
+## 1. Value Stream
+
+This stream focused on determining how AI could enhance this company's products and services and improve their business processes.
+
+## 2. Governance and People and Skills Stream
+
+This stream concentrated on the necessary governance changes to effectively integrate AI. It also examined the impact on current jobs at this company, anticipated future job roles, and identified areas where employees might need re-skilling.
+
+## 3. Architecture Stream
+
+My area of involvement. This stream was about defining the technical capabilities required across this company’s entire enterprise architecture to support AI-driven solutions. Initially, this company had a somewhat simplistic view, seeing AI as merely another box within their architecture diagram.  However, AI needs to integrate more comprehensively into products, function as standalone services or applications, and either be developed in-house or integrated as plug-ins into existing business processes. My role was to build a cohesive and enterprise-wide set of technical capabilities to enable this company to develop and deploy AI-driven solutions effectively. The vision I created, which was agreed upon with the steering group and senior management, translated into four key principles for the architecture design:
+
+### Adaptability with Current and Future AI Developments
+
+We aimed to define the technical capabilities based on current understanding and devlopments in AI, incorporating advancements from academia and industry. These capabilities needed to be flexible enough to adapt to future AI developments.
+
+### Federated Deployment
+
+The system’s capabilities would be defined, configured, and initialised centrally, with deployment and usage by individual teams, departments, or business units. Control and management would remain centralised, following a hub-and-spoke model rather than a fully decentralised federated approach.
+
+### Robust Foundation
+
+Adherence to the principles of the existing enterprise architecture, was crucial. The architecture needed to be comprehensive and cover all stages of development and deployment without assumptions, ensuring the capabilities were integral, sustainable parts of the enterprise architecture.
+
+### Responsible Design
+
+Transparency and explainability were emphasied to ensure AI products are understandable to their operators. Principles such as sustainability, fairness, and robustness, which were already part of the enterprise architecture design principles, were maintained, with transparency and explainability highlighted as essential elements for responsible AI design.
+
+Over the next three to four months, I focused on assembling the necessary technical capabilities for AI integration into the company’s systems and solutions. To simplify understanding and tracking developments, we categorised our approach into two streams: Generative AI and Analytical AI (this company’s term for Predictive AI).
+
+#### Generative AI
+
+We considered capabilities like document parsing and analysis, synthetic data generation, embeddings management, vector database indexing, prompt engineering, fine-tuning, hosting and cataloguing LLMs, enhancing transparency and explainability, human feedback loop capability, and more. These capabilities were envisioned as enterprise-wide resources, buildable and usable across the entire organization.
+
+#### Analytical AI
+
+We outlined essential enterprise-wide capabilities in traditional AI domains, including machine learning. This involved building new models, creating and storing features in a feature store, dataset creation from mixed data sources, feature preparation, supporting exploratory data analysis, cataloguing algorithms, and tracking previous experiments. Some capabilities, such as synthetic data generation and feature stores, overlapped between Generative and Analytical AI. Transparency and explainability were emphasised for Analytical AI solutions as well.
+
+In summary, I compiled a comprehensive list of AI capabilities, providing detailed explanations of their purpose and implementation as enterprise-wide resources. This would enable different solutions to leverage these capabilities effectively. We also accounted for other non-AI-specific services and capabilities already defined within the enterprise architecture, such as application integration, API management, data classification, data management, and DevSecOps. These components were crucial for successfully implementing AI solutions, and I outlined these foundation services within the architecture diagram developed for this company.
+
+The next phase involved creating an investment plan and an implementation roadmap. Initially, we estimated the costs for implementing the AI-specific capabilities using a T-shirt sizing approach. We also estimated the effort needed to adapt the foundational services to support the AI-specific capabilities, engaging with various teams whithin the company responsible for these foundation services. 
+
+For instance, we consulted with the API management team to ensure they were prepared to support AI applications. Some services were fully capable (marked as green), while others required minor adjustments. After these consultations, we developed an investment plan detailing the costs associated with deploying these AI capabilities. We then created an implementation roadmap and presented it to senior executive leadership. 
+
+Due to our compelling and comprehensive AI strategy case, along with a detailed investment plan, the Senior Executive Leadership team agreed to invest in the implementation. Consequently, I was re-engaged by this company to help define parameters, including the necessary guardrails and guidelines, for implementing and using these technical capabilities. Additionally, I have been asked to elaborate further on the capabilities and develop a more detailed investment plan and roadmap for fully implementing the enterprise architecture aspects of the AI strategy over the next two and a half to three years.
+
+### Generative AI RAG internal solution
+
+I worked on a PoC designed to improve the process of crafting responses to RFPs by leveraging insights and knowledge gained from previous submissions. This project specifically aimed to support the government tenders and engagements group within EY's technology consultancy.
+
+A Retrival Augmented Generation solution utilising semantic searching of previously created RFP answers. This AI-powered system enabled team members to input their questions and receive customised responses based on historical data, significantly accelerating the bid creation process.
+
+Initially, I collaborated with a developer to design and implement the solution. However, I eventually assumed full responsibility for the project when the developer had to transition to a different task. At this point, the project's potential was recognised by our leadership, and the government tenders team expressed considerable interest in the results, eager to adopt the solution. We are set to initiate its internal implementation and launch soon.
+
+In addition to my role as a software architect, I led a small development team and worked closely with the Government engagements team to identify areas for enhancement in the solution. I also managed expectations from the managing partners, crafting tailored communications to gain their support. This was critical in ensuring the ongoing development and acceptance of the solution as an internal accelerator. Moreover, we positioned it as a sales process accelerator to highlight our expertise in generative AI technology.
+
+### Generative and Predictive AI PoC
+In response to an RFP from the Revenue Office in Ireland, I developed a proof of concept (PoC) aimed at migrating their existing document management system from an on-premises solution to SharePoint in the cloud. The project presented a significant challenge due to the large volume of documents with unclear contents and ambiguous relevance, which necessitated a manual review to determine their future.
+
+To tackle this issue, I designed a sophisticated solution that employed Generative AI to summarise and understand the contents of the documents, assessing their relevance for migration or archiving. Furthermore, I implemented a Machine Learning solution that utilised the Generative AI insights and learned from past human decisions to automatically migrate or archive documents.
+
+The PoC I created effectively demonstrated this innovative approach to the Revenue Office and was well received, showcasing how advanced technology can streamline document management processes.
+
+### AIB RPA
+
+In my role as Software Development Manager, I led a small, globally distributed team of 5 people to deliver a Robotic Process Automation solution for AIB Bank, with a primary focus on customer applications for new banking products and overall customer relationship management. My responsibilities encompassed team management, coordination with the bank to ensure our solution aligned with their needs, and overseeing the implementation process.
+
+Our team operated from various global locations, including India, Belfast, and Limerick. Through our RPA developments, we successfully streamlined AIB’s business processes. One of the most significant challenges I've encountered was navigating the complexities of the bank's operations, particularly when it came to integrating our solution with the existing IT infrastructure and the customer experience team.
+
+Although AIB already had an RPA framework in place, it was limited to their IT department and had not been extended to include the customer experience team. We worked closely with the IT department to deploy the necessary technology, thereby enhancing the capabilities of the customer experience team and the IT RPA CoE. A major hurdle in this process was deploying the RPA solutions to production, which required addressing various external concerns and ensuring alignment with our business process requirements. A significant portion of my efforts was dedicated to managing diverse stakeholders within the bank and understanding how their requirements impacted our deliverables. One notable issue was obtaining test data for our RPA implementation. We needed access to real or pre-existing customer applications and forms to ensure our robots produced accurate outputs. However, this data was not readily available in a format conducive to thorough testing. For example, testing new card applications posed a challenge since once an application was processed, it could not be reused for further testing. Additionally, creating a comprehensive testing environment that included all necessary business systems was a complex undertaking. Despite these challenges, I collaborated closely with other departments to implement the required systems and establish a proper testing environment.
+
+Ultimately, this project provided me with deep insights into the intricacies of the bank’s internal operations and equipped me with the skills to effectively deliver a robust RPA solution.
+
+### HSE
+
 I briefly collaborated with HSE to explore the automation of their report generation process for submission to external regulatory bodies, such as the Ministry of Health. The focus was on reports related to expenditure and fund allocation across different projects. My primary goal was to understand their existing processes and then streamline them to enable automatic report generation. To achieve this, I devised a solution and developed a PoC that incorporated their existing applications, particularly leveraging SharePoint and other Microsoft tools.
 
-NEOM
-I’ve worked on crafting responses to requests for tender and proposals, including a significant and complex solution for a navigational port. The Saudi Arabian government aimed to expand and digitize an old port to create a fully digital and future-proof facility. The request for proposal (RFP) required an integration architecture to support this digital transformation.
-To address this, I designed an event-driven architecture that integrated Internet of Things (IoT) devices from boats, cranes, and other port equipment with various systems such as Customer Relationship Management (CRM), finance, invoicing, and human resources. The solution utilized technologies like Kafka, Kafka Connect, and an IoT gateway to facilitate efficient data processing and communication.
-In addition to developing the architecture, I formulated an investment plan and an implementation roadmap to support the proposed solution. This included addressing budgetary constraints and mitigating uncertainties associated with the new systems to be acquired as part of the wider digital transformation as well as integrating unknown interfaces for some legacy systems.
 
-Revenue
-Another proposal I’ve worked on was for an RFP from the revenue office, aimed at migrating their existing document management system from an on-premises solution to SharePoint in the cloud. One of their major challenges was the presence of numerous documents whose contents and necessity were unclear. This required a thorough, manual, review to determine whether each document should be migrated or archived on-premises.
-To address this, I developed a solution leveraging the latest advancements in Generative AI to summarize documents, understand their content, and assess their relevance. Additionally, I designed a Machine Learning system that could learn from human decisions to automatically determine whether a document should be migrated or archived based on the summary extracted by the Generative AI component. I also created a proof of concept (PoC) to demonstrate the solution to the revenue office, which was well-received
-Experience in Truata, June 2020 to August 2022
-At Truata, I served as the Engineering Manager for the newly formed Web & Integration team. My responsibilities were twofold:
-1.	Establishing a robust engineering framework for all Web and Integration related software developments at Truata. This involved implementing an appropriate Software Development Life Cycle (SDLC) to ensure the delivery of high-quality, innovative software solutions, identify the right tools for supporting this SDLC and, obviously, to hire a team and build a culture of high performance in software development.
-2.	Providing software architecture expertise. I employed the right design patterns and components needed to integrate data engineering solutions that applied privacy-enhancing algorithms to large datasets with an innovative, responsive, and excellent front-end, which the team was also responsible for developing.
-When I joined, the team comprised of 2 permanent employees and 2 external contractors, from one of our partners. Truata was focused on developing and offering two primary products in the market:
-1.	A privacy-enhanced analytics platform originally built for MasterCard but adaptable for various clients.
-2.	Calibrate, the flagship product. Calibrate is a suite of tools, algorithms, and facilities designed to process big data, identify potential privacy risks, recommend possible transformation functions to mitigate these risks and to apply them to the dataset in order to produce a privacy-safe data set that retained as much of the initial value in the data as possible. Calibrate's functionality extended beyond identifying Personally Identifiable Information (PII) in data sets, it also aimed to detect whether a person's digital fingerprint could be identified or created from various data columns across multiple data sets owned by a company. This ensured that companies could assess their data for privacy concerns before using it to build machine learning models or business intelligence systems.
-Software Engineering Management experience in Truata
-I will describe my engineering management approach for building the necessary culture, work environment and SDLC to develop a high performing team.
-The initial or incumbent SDLC had been based the team dynamic using Scrum, we had a Scrum Master who was in charge of making sure the team understands Scrum and applies it as best as possible. My role here was to identify the best way I could help the team to develop the design that was approved for the software products to be developed but also to ensure the teams’ ability to accommodate change as, understandable for a start-up, the products’ requirements were changing quite often as the company was trying to clearly identify the right product features to build at the right time. I had worked with the Scrum Master to make sure I had the right level of access to be in the position to help and develop, as people manager, the engineers in my team but also to allow them the freedom to produce the best code they can and to enjoy the challenges while they were doing it. 
-I have also worked with the DevOps team to put in place the right components to implement a continuous delivery pipeline for each product we were building. This included the branching strategy in Git, the code quality assurance tools and configurations, the right testing approach for unit testing and the corresponding code coverage, for integration testing and the UAT.
-I had also worked with the Security team to ensure that the development process ensures the right level of secure coding as well as the appropriate engagement of security testing (PEN testing) at the right time and to cover the necessary security risks (OWASP top 10).
-An important part of establishing a successful SDLC and a coherent culture within Truata was to align with the engineering manager of the Data Engineering team and with the Chief Data Scientist who managed the Data Science team. We had appropriate communication channels and managed the teams in similar ways, it actually worked quite well and when the Data Engineering manager left I’ve continued as Manager for that team too.
-The resulting SDLC was based on BDD, which worked very well with the Product Manager as he was able to describe the functionality using the Given-When-Then language and our engineers understood how to implement the necessary functionality as well as the necessary tests for that functionality. I had also instilled a culture of developing quality software through developing comprehensive integration and user-acceptance tests. I had proposed that we do not have a separate testing team, but engineers in all teams would be either developing functionality code or testing code during a sprint, obviously not for the same product feature. In this way we achieved 2 very important goals in developing high quality software. Firstly, we had code for most of our tests, manual tests were quite a few and only in emergency situations and only for short time. Secondly, the engineers had to understand other features of the application, from a user’s perspective as they had to implement those tests.
-The culture I have encouraged was one of open knowledge sharing, open conversations, constructive criticism and through understanding of architectural decisions. We also had as many non-work related meetings as possible as a team, we were working through the hight of the COVID pandemic, and I had maintained a culture of open door, virtual door most of the time, through the fact that I had encouraged my colleagues and team mates to call me on Teams whenever they need without having to block my calendar or ask for permission in any way, I was trying to implement “walking to one’s desk” virtually.
-I had also encouraged engineers to freely find solutions for their problems and even to change architectural decisions in order to support their approach of producing a better product, obviously they will be supporting their approach with appropriate technical arguments and the necessary debates will be allowed and sometimes encouraged, as long as we maintain the focus of delivering the best product possible. If the proposed change had proven  benefits, I would even support it in discussions with the Product Manager to amend the delivery roadmap.
-From June 2020 until August 2022 I have built and developed a high-performing Web & Integrations team that was able to deliver the two products described above and managed to add new features and work with product managers and clients to provide the expected features at a very high standard of performance, user experience and costs. I have relied on 3 very experienced engineers, which I have hired into the team and they provided expertise in UI, Java backend and runtime environments respectively. I have grown the Web & Integration team from 4 people to a 12 strong engineers team and then managed to retain it to 10 engineers even if the sales process for the 2 products was not as substantial as expected. 
-Software Architecture experience in Truata
-I will describe the approach I have used for designing the architecture for the 2 products mentioned above.
-My guiding principles, patterns and practices were the ones described in the Domain Driven Desing approach and the Reactive Manifesto for implementing Reactive Systems.
-I had tried to identify the bounding contexts, context maps, create the necessary ubiquitous language and the appropriate domain events and entities. Then used the Reactive Manifesto’s principles: Responsive, Elastic, Message Driven and Resilient to employ the right patterns, modules and components to implement these principles.
-For the Privacy-Enhanced Analytics Platform (PEAP) I’ve developed an event-driven architecture using Angular as the front-end, the senior engineer I’ve hired for the role of driving the UI team was an expert in Angular, micros-services built in Java and deployed using containers and RabbitMQ as the message broker for the solution. The data engineering side was implemented using this Data Science platform called Knime which was a front-end to run and managed Spark jobs. The Data Engineering solution was a bit more complex that it needed to be, but at the time was the “legacy” way of running Jupyter notebooks in a Spark cluster environment. The main reason why I’ve proposed using an event-driven integration was to make sure that this data engineering platform is abstracted away, through events, so that it can be replaced with a more simpler solution in the future.
-For the Calibrate product I’ve designed a similar architecture mainly because of the long-running data processing elements of the solution and because we needed to provide a way of accommodating any eventual implementation of data processing cluster that the client might already have in place, they might have a Databricks subscription or their own Spark Cluster environment or some other environment like Apache Beam or Apache Flink
-The Calibrate product was offering tools for identifying privacy risks within any type of  dataset, including digital fingerprinting of a person, and transformation solutions to mitigate the identified risks.
-I’ve created the architecture for integrating the existing data processing algorithms so that they can be applied to large datasets, by multiple users with the expected user experience related to long-running jobs, such as the ability of monitoring a job as it’s progressing, to alert of any issues in the dataset as soon as they appear and to allow users to cancel any long-running jobs without losing out on the findings identified.
-The application was structured using the micro-kernel pattern, having a central piece of functionality which allowed the integration of diverse plugins for different algorithms and data processing solutions as well as client based Identity Management components, Security Key Vaults, data warehouse, data lake or any other data storing facility. The product structure allowed for a flexible licensing model and flexible upgrading.
-I have also worked with the DevOps engineers in the team to deploy the application as a SaaS product within Azure Marketplace and IBM’s Cloud Pack 4 Data.
-For both these applications I’ve included an internal Certification Authority which was used to provide Mutual TLS identification, using digital certificates, for all communication channels between majority of components of both applications, especially when connecting to RabbitMQ.
-I’ve also proposed and designed and abstraction layers for data access facility in Calibrate that will not only allow for any data source to be accommodated for both ingestion and output but also to allow for data streaming input and output.
-Authorisation mechanism was relying on signed JWTs and authorisation claims to allow the integration of any client specific IdM as well as for building a stand-alone product using an internal Keycloak IdM.
+### RFP Responses
+I have played a pivotal role in developing responses to requests for tender and proposals. One of the most notable ones was a groundbreaking project to establish a new navigational port for the Saudi Arabian government. The goal was to create a fully digital and future-ready facility as part of a larger initiative to build the city of the future.
+
+In response to the request for proposal (RFP), I designed an event-driven architecture that effectively integrated IoT devices from boats, cranes, and various port equipment with critical operational systems, including CRM, finance, invoicing, and HR. To facilitate efficient data processing and real-time communication, I utilised advanced technologies such as Kafka, Kafka Connect, and an IoT gateway.
+
+In addition to the architectural design, I developed a comprehensive investment plan and an implementation roadmap to guide the successful execution of the proposed solution. This included addressing budgetary considerations and mitigating uncertainties associated with the integration of new systems, as well as navigating the complexities of interfacing with various legacy systems.
+
+Through this project, I've built on my expertise in software architecture, emphasising strategic integration of cutting-edge technologies to drive digital transformation in large-scale infrastructure initiatives.
+
+# Experience in Truata, June 2020 to August 2022
+
+**Position**: Engineering Manager, Web & Integration Team
+
+At Truata, I served as the Engineering Manager for the newly established **Web & Integration team**. My key responsibilities included:
+
+1. **Establishing a Robust Engineering Framework**:  
+   I developed and implemented a comprehensive **Software Development Life Cycle (SDLC)** to ensure the delivery of high-quality, innovative software solutions. This involved:
+   - Selecting the right tools to support the SDLC.
+   - Creating a culture of high performance within the team.
+   - Leading the hiring process to build a skilled workforce focused on software development excellence.
+
+2. **Providing Software Architecture Expertise**:  
+   I applied my architectural knowledge to select appropriate **design patterns** and components necessary for **integrating data engineering solutions**. These solutions utilized **privacy-enhancing algorithms** to process large datasets and required a strong emphasis on developing an innovative, responsive front-end, which the team also created.
+
+## Team Composition
+
+When I joined, the team comprised:
+- 2 permanent employees 
+- 2 external contractors from one of our partners.
+
+## Key Products Developed
+
+Truata focused on developing and offering two primary products:
+
+- **Privacy-Enhanced Analytics Platform**:  
+   Originally built for MasterCard, this adaptable platform catered to various clients, providing vital analytics and Machine Learning (ML) models while ensuring data privacy.
+
+- **Calibrate**:  
+   Our flagship product, Calibrate, consisted of a suite of tools, algorithms, and facilities designed to:
+   - Process big data while identifying potential privacy risks.
+   - Recommend transformation functions to mitigate these risks.
+   - Apply these transformations to datasets to create **privacy-enhanced datasets**, preserving as much of the original data's value as possible.
+
+   Notably, Calibrate included functionalities beyond identifying **Personally Identifiable Information (PII)**; it also aimed to detect whether a person's **digital fingerprint** could be inferred from various data columns across multiple datasets owned by an organisation. This capability empowered companies to assess their data for privacy concerns before utilising it for **Machine Learning models** or **Business Intelligence **systems**.
+
+# Engineering Management Approach
+
+I will outline my engineering management approach focused on building a productive culture, fostering an effective work environment, and implementing a robust Software Development Life Cycle (SDLC) to develop a high-performing team, all with the added challange of COVID lockdowns.
+
+## Initial SDLC and Team Dynamics
+
+The incumbent SDLC was centered around Scrum, with a Scrum Master responsible for ensuring the team understood and effectively applied Scrum principles. My primary role was to identify the best ways to support the team in developing the approved software product designs while ensuring their adaptability to frequently changing product requirements, which is typical for a start-up environment. I collaborated closely with the Scrum Master to secure appropriate access that would enable me to mentor the engineers on my team while granting them the autonomy to produce high-quality code and embrace the challenges inherent in their work.
+
+## Continuous Delivery Pipeline
+
+I also partnered with the DevOps team to implement the necessary components for a continuous delivery pipeline for our products. This included establishing a branching strategy in Git, implementing code quality assurance tools and configurations, and defining the appropriate testing strategies for unit testing, integration testing, and user acceptance testing (UAT).
+
+## Security Practices
+
+Collaboration with the Security team was essential to ensure that our development process adhered to secure coding practices. We engaged in appropriate security testing, including penetration testing, at critical points to address necessary security risks as outlined by the OWASP Top 10.
+
+## Alignment and Collaboration
+
+An integral aspect of establishing a successful SDLC and coherent culture at Truata was aligning with the Engineering Manager of the Data Engineering team and the Chief Data Scientist overseeing the Data Science team. We maintained effective communication channels and adopted similar management approaches. When the Data Engineering Manager departed, I took over managerial responsibilities for that team as well.
+
+## Behavior-Driven Development (BDD)
+
+The resulting SDLC was based on **Behavior-Driven Development (BDD)**, which facilitated effective collaboration with the Product Manager, as he could describe functionalities using the Given-When-Then framework. This approach allowed our engineers to comprehend the necessary functionality as well as the associated tests. I fostered a culture of quality software development by promoting comprehensive integration and user acceptance testing. Rather than having a separate testing team, engineers were responsible for either developing functional code or writing test code during sprints, ensuring they did not work on the same product feature simultaneously. This approach achieved two significant goals for high-quality software development: 
+1. Most tests were automated, with manual testing being minimal and reserved for emergencies.
+2. Engineers gained a deeper understanding of various application features from a user’s perspective through their engagement in testing.
+
+## Culture of Openness and Collaboration
+
+I encouraged a culture of open knowledge sharing, constructive criticism, and a shared understanding of architectural decisions (ADR). Given that we were navigating the height of the COVID-19 pandemic, my team held as many non-work-related gatherings as possible to foster a team spirit. I maintained an "open-door" culture, virtually, by inviting colleagues to reach out to me using Microsoft Teams whenever they needed assistance, without requiring permission or blocking my calendar, essentially simulating the experience of walking to someone’s desk.
+
+I also empowered engineers to explore solutions independently and consider changing architectural decisions to enhance product quality. As long as they supported their proposals with sound technical reasoning, I welcomed discussions and debates, provided we remained focused on delivering the best possible product within the agreed timelines. If their suggested changes demonstrated clear benefits, I supported them in discussions with the Product Manager to revise the delivery roadmap.
+
+## Team Development and Achievements
+
+From June 2020 to August 2022, I built and developed a high-performing **Web & Integrations team** capable of delivering the two primary products mentioned earlier. The team successfully added new features and collaborated with product managers and clients to meet high standards of performance, user experience, and cost efficiency. I onboarded three experienced engineers, each of whom took over leadership of their respective group of engineers focused on their areas of expertise: UI, Integrations backend, and runtime environments. By supporting the promotion of two of these experienced engineers to **Principal Engineer** level, I effectively established two well-connected teams: one dedicated to UI and the other to backend integration. Ultimately, I grew the Web & Integrations team from 4 members to 12, successfully maintaining a team of 10 engineers even when the sales process for the two products did not meet expected levels.
+
+## Software Architecture experience in Truata
+
+# Architectural Approach for Privacy-Enhanced Analytics Platform (PEAP) and Calibrate
+
+I will outline the approach I used for designing the architecture of the two products mentioned above.
+
+My guiding principles, patterns, and practices were derived from **Domain Driven Design** and the [Reactive Manifesto](https://www.reactivemanifesto.org) for implementing reactive systems. I focused on identifying Bounding Contexts, creating Context Maps, developing a shared Ubiquitous Language, and defining the appropriate domain Events and Entities. I then applied the principles of the Reactive Manifesto—**Responsive**, **Elastic**, **Message Driven**, and **Resilient**—to select the right patterns, modules, and components for the implementation.
+
+## Privacy-Enhanced Analytics Platform (PEAP)
+
+For the **Privacy-Enhanced Analytics Platform (PEAP)**, I developed an **event-driven architecture** utilising Angular for the front end. The senior engineer I hired to lead the UI team was an expert in Angular. The backend was built using microservices in Java, deployed with containers, and incorporated **RabbitMQ** as the message broker. The data engineering aspect utilised **KNIME**, a data science platform that facilitated the execution and management of Spark jobs. Although the data engineering solution was more complex than necessary at the time, it represented the "legacy" method for running Jupyter notebooks within a Spark cluster environment. 
+
+The primary reason for proposing an event-driven integration was to abstract the data engineering platform through events, enabling future replacement with a simpler solution.
+
+## Calibrate Product
+
+For the **Calibrate product**, I designed a similar architecture, accommodating the long-running data processing elements essential to the solution. This design also aimed to support potential data processing clusters that clients might already have in place, including Databricks subscriptions, personal Spark Cluster environments, or other technologies like Apache Beam or Apache Flink.
+
+"Calibrate" provides tools for identifying privacy risks within any dataset, including digital fingerprinting and transformation solutions for mitigating these risks. I crafted the architecture to integrate existing data processing algorithms for application to large datasets by multiple users, ensuring an optimal user experience for long-running jobs. This included features for job monitoring, immediate issue alerts related to the dataset, and the capability for users to cancel long-running jobs without losing important findings.
+
+The application architecture adopted the **micro-kernel pattern**, featuring a central functionality component (kernel) that enabled the integration of diverse plugins for various algorithms, data processing solutions, and client-specific identity management components, including **Security Key Vaults**, Data Warehouses, Data Lakes, or any other storage facilities. This structure provided a flexible licensing model and allowed for easy upgrades.
+
+I also collaborated with the DevOps engineers to deploy the application as a **SaaS product** within the **Azure Marketplace** and **IBM’s Cloud Pak for Data**.
+
+## Security Measures and Data Access
+
+For both applications, I implemented an internal **Certification Authority** to facilitate mutual TLS identification using digital certificates for secure communication between the majority of components, particularly when connecting to RabbitMQ.
+
+I proposed and designed abstraction layers for the data access facility in Calibrate, allowing for seamless integration of any data source for both ingestion and output, with capabilities for data streaming input and output. The authorisation mechanism relied on signed **JWTs** and authorisation claims to facilitate integration with any client-specific Identity Management solutions, as well as to support the development of a standalone product utilising an internal **Keycloak** IdM.
+
 Work experience in Jaguar LandRover (JLR) Jan 2019 to June 2020
 Software Engineering Management
 I was brought in as software development manager to grow and develop 6 engineers engaged in a few separate projects, of which I was running only one, the Digital Payments Gateway product called Digital Wallet.
@@ -131,3 +250,4 @@ Spare time projects
 In my spare time, I am continuing to enhance my knowledge in software engineering both the architecting side as well as team management.
 In the software architecture I have always been interested in modular and distributed systems and best way to implement them to address the challenges of performance, data consistency, scalability and user experience. I have been a long time subscriber of the O’Reilly learning platform and in Autumn 2023 I had decided to join a few other developers and set up a team to compete. We had managed to bring our solution to the semi-final, which was quite a success given that the team members haven’t know each other before this and had quite different expertise and levels of experience. The solution we’ve proposed can be viewed at https://github.com/WildSight-Wizards/wildlifewatcher . My contribution there was to build the software architecture of integrating the cameras distributed across the globe in a seamless way, I had borrowed from my experience in Jaguar LandRover where I’ve designed the Digital Twin solution.
 I also like exploring the challenges posed by explaining how AI systems operate and how can they be safely integrated with humans, via innovative software architectures, to enhance the software solutions I develop. I have recently graduated a Masters in Artificial Intelligence, which gave me the necessary theoretical foundation to better understand how AI can be built, how ML works and how the inferences can be integrated. Continuing from there I want to understand how we can integrate feedback loops that allow application users to get answers to questions about how the application that employs an AI component has come up to the specific decisions it made. It is a complex field of study involving Explainable AI as well as understanding how deep learning algorithms model the patterns that form the foundation of the generated predictions.
+```
