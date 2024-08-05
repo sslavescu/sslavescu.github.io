@@ -1,42 +1,45 @@
-# Experience in EY, August 2020 to present day
-# AI Strategy Development for Large Automotive and Manufacturing Equipment Company
+## Experience in EY, August 2020 to present day
+
+**Position**: Senior Manager, AI & Data
+
+### AI Strategy Development for Large Automotive and Manufacturing Equipment Company
 
 We were tasked with developing the AI strategy for this Large Automotive and Manufacturing Equipment Company, which involved three main streams:
-## 1. Value Stream
+1. Value Stream
 
 This stream focused on determining how AI could enhance this company's products and services and improve their business processes.
 
-## 2. Governance and People and Skills Stream
+2. Governance and People and Skills Stream
 
 This stream concentrated on the necessary governance changes to effectively integrate AI. It also examined the impact on current jobs at this company, anticipated future job roles, and identified areas where employees might need re-skilling.
 
-## 3. Architecture Stream
+3. Architecture Stream
 
 My area of involvement. This stream was about defining the technical capabilities required across this company’s entire enterprise architecture to support AI-driven solutions. Initially, this company had a somewhat simplistic view, seeing AI as merely another box within their architecture diagram.  However, AI needs to integrate more comprehensively into products, function as standalone services or applications, and either be developed in-house or integrated as plug-ins into existing business processes. My role was to build a cohesive and enterprise-wide set of technical capabilities to enable this company to develop and deploy AI-driven solutions effectively. The vision I created, which was agreed upon with the steering group and senior management, translated into four key principles for the architecture design:
 
-### Adaptability with Current and Future AI Developments
+- Adaptability with Current and Future AI Developments
 
 We aimed to define the technical capabilities based on current understanding and devlopments in AI, incorporating advancements from academia and industry. These capabilities needed to be flexible enough to adapt to future AI developments.
 
-### Federated Deployment
+- Federated Deployment
 
 The system’s capabilities would be defined, configured, and initialised centrally, with deployment and usage by individual teams, departments, or business units. Control and management would remain centralised, following a hub-and-spoke model rather than a fully decentralised federated approach.
 
-### Robust Foundation
+- Robust Foundation
 
 Adherence to the principles of the existing enterprise architecture, was crucial. The architecture needed to be comprehensive and cover all stages of development and deployment without assumptions, ensuring the capabilities were integral, sustainable parts of the enterprise architecture.
 
-### Responsible Design
+- Responsible Design
 
 Transparency and explainability were emphasied to ensure AI products are understandable to their operators. Principles such as sustainability, fairness, and robustness, which were already part of the enterprise architecture design principles, were maintained, with transparency and explainability highlighted as essential elements for responsible AI design.
 
-Over the next three to four months, I focused on assembling the necessary technical capabilities for AI integration into the company’s systems and solutions. To simplify understanding and tracking developments, we categorised our approach into two streams: Generative AI and Analytical AI (this company’s term for Predictive AI).
+Over the next four months, I focused on assembling the necessary technical capabilities for AI integration into the company’s systems and solutions. To simplify understanding and tracking developments, we categorised our approach into two streams: Generative AI and Analytical AI (this company’s term for Predictive AI).
 
-#### Generative AI
+- Generative AI
 
 We considered capabilities like document parsing and analysis, synthetic data generation, embeddings management, vector database indexing, prompt engineering, fine-tuning, hosting and cataloguing LLMs, enhancing transparency and explainability, human feedback loop capability, and more. These capabilities were envisioned as enterprise-wide resources, buildable and usable across the entire organization.
 
-#### Analytical AI
+- Analytical AI
 
 We outlined essential enterprise-wide capabilities in traditional AI domains, including machine learning. This involved building new models, creating and storing features in a feature store, dataset creation from mixed data sources, feature preparation, supporting exploratory data analysis, cataloguing algorithms, and tracking previous experiments. Some capabilities, such as synthetic data generation and feature stores, overlapped between Generative and Analytical AI. Transparency and explainability were emphasised for Analytical AI solutions as well.
 
@@ -89,7 +92,7 @@ In addition to the architectural design, I developed a comprehensive investment 
 
 Through this project, I've built on my expertise in software architecture, emphasising strategic integration of cutting-edge technologies to drive digital transformation in large-scale infrastructure initiatives.
 
-# Experience in Truata, June 2020 to August 2022
+## Experience in Truata, June 2020 to August 2022
 
 **Position**: Engineering Manager, Web & Integration Team
 
@@ -102,15 +105,9 @@ At Truata, I served as the Engineering Manager for the newly established **Web &
    - Leading the hiring process to build a skilled workforce focused on software development excellence.
 
 2. **Providing Software Architecture Expertise**:  
-   I applied my architectural knowledge to select appropriate **design patterns** and components necessary for **integrating data engineering solutions**. These solutions utilized **privacy-enhancing algorithms** to process large datasets and required a strong emphasis on developing an innovative, responsive front-end, which the team also created.
+   I applied my architectural knowledge to select appropriate **design patterns** and components necessary for **integrating data engineering solutions**. These solutions utilized **privacy-enhancing algorithms** to process large datasets and required a strong emphasis on developing an innovative, responsive front-end, which the team also created. When I joined, the team comprised of 2 permanent employees and 2 external contractors from one of our partners.
 
-## Team Composition
-
-When I joined, the team comprised:
-- 2 permanent employees 
-- 2 external contractors from one of our partners.
-
-## Key Products Developed
+### Key Products Developed
 
 Truata focused on developing and offering two primary products:
 
@@ -125,57 +122,57 @@ Truata focused on developing and offering two primary products:
 
    Notably, Calibrate included functionalities beyond identifying **Personally Identifiable Information (PII)**; it also aimed to detect whether a person's **digital fingerprint** could be inferred from various data columns across multiple datasets owned by an organisation. This capability empowered companies to assess their data for privacy concerns before utilising it for **Machine Learning models** or **Business Intelligence **systems**.
 
-# Engineering Management Approach
+## Engineering Management Approach
 
 I will outline my engineering management approach focused on building a productive culture, fostering an effective work environment, and implementing a robust Software Development Life Cycle (SDLC) to develop a high-performing team, all with the added challange of COVID lockdowns.
 
-## Initial SDLC and Team Dynamics
+### Initial SDLC and Team Dynamics
 
 The incumbent SDLC was centered around Scrum, with a Scrum Master responsible for ensuring the team understood and effectively applied Scrum principles. My primary role was to identify the best ways to support the team in developing the approved software product designs while ensuring their adaptability to frequently changing product requirements, which is typical for a start-up environment. I collaborated closely with the Scrum Master to secure appropriate access that would enable me to mentor the engineers on my team while granting them the autonomy to produce high-quality code and embrace the challenges inherent in their work.
 
-## Continuous Delivery Pipeline
+### Continuous Delivery Pipeline
 
 I also partnered with the DevOps team to implement the necessary components for a continuous delivery pipeline for our products. This included establishing a branching strategy in Git, implementing code quality assurance tools and configurations, and defining the appropriate testing strategies for unit testing, integration testing, and user acceptance testing (UAT).
 
-## Security Practices
+### Security Practices
 
 Collaboration with the Security team was essential to ensure that our development process adhered to secure coding practices. We engaged in appropriate security testing, including penetration testing, at critical points to address necessary security risks as outlined by the OWASP Top 10.
 
-## Alignment and Collaboration
+### Alignment and Collaboration
 
 An integral aspect of establishing a successful SDLC and coherent culture at Truata was aligning with the Engineering Manager of the Data Engineering team and the Chief Data Scientist overseeing the Data Science team. We maintained effective communication channels and adopted similar management approaches. When the Data Engineering Manager departed, I took over managerial responsibilities for that team as well.
 
-## Behavior-Driven Development (BDD)
+### Behavior-Driven Development (BDD)
 
 The resulting SDLC was based on **Behavior-Driven Development (BDD)**, which facilitated effective collaboration with the Product Manager, as he could describe functionalities using the Given-When-Then framework. This approach allowed our engineers to comprehend the necessary functionality as well as the associated tests. I fostered a culture of quality software development by promoting comprehensive integration and user acceptance testing. Rather than having a separate testing team, engineers were responsible for either developing functional code or writing test code during sprints, ensuring they did not work on the same product feature simultaneously. This approach achieved two significant goals for high-quality software development: 
 1. Most tests were automated, with manual testing being minimal and reserved for emergencies.
 2. Engineers gained a deeper understanding of various application features from a user’s perspective through their engagement in testing.
 
-## Culture of Openness and Collaboration
+### Culture of Openness and Collaboration
 
 I encouraged a culture of open knowledge sharing, constructive criticism, and a shared understanding of architectural decisions (ADR). Given that we were navigating the height of the COVID-19 pandemic, my team held as many non-work-related gatherings as possible to foster a team spirit. I maintained an "open-door" culture, virtually, by inviting colleagues to reach out to me using Microsoft Teams whenever they needed assistance, without requiring permission or blocking my calendar, essentially simulating the experience of walking to someone’s desk.
 
 I also empowered engineers to explore solutions independently and consider changing architectural decisions to enhance product quality. As long as they supported their proposals with sound technical reasoning, I welcomed discussions and debates, provided we remained focused on delivering the best possible product within the agreed timelines. If their suggested changes demonstrated clear benefits, I supported them in discussions with the Product Manager to revise the delivery roadmap.
 
-## Team Development and Achievements
+### Team Development and Achievements
 
-From June 2020 to August 2022, I built and developed a high-performing **Web & Integrations team** capable of delivering the two primary products mentioned earlier. The team successfully added new features and collaborated with product managers and clients to meet high standards of performance, user experience, and cost efficiency. I onboarded three experienced engineers, each of whom took over leadership of their respective group of engineers focused on their areas of expertise: UI, Integrations backend, and runtime environments. By supporting the promotion of two of these experienced engineers to **Principal Engineer** level, I effectively established two well-connected teams: one dedicated to UI and the other to backend integration. Ultimately, I grew the Web & Integrations team from 4 members to 12, successfully maintaining a team of 10 engineers even when the sales process for the two products did not meet expected levels.
+From June 2020 to August 2022, I have built and developed a high-performing **Web & Integrations team** capable of delivering the two primary products mentioned earlier. The team successfully added new features and collaborated with product managers and clients to meet high standards of performance, user experience, and cost efficiency. I onboarded three experienced engineers, each of whom took over leadership of their respective group of engineers focused on their areas of expertise: UI, Integrations, and runtime environments. By supporting the promotion of two of these experienced engineers to **Principal Engineer** level, I effectively established two well-connected teams: one dedicated to UI and the other to backend integration. Ultimately, I grew the Web & Integrations team to 12 engineers, successfully maintaining a team of 10 engineers even when the sales process for the two products did not meet expected levels.
 
-## Software Architecture experience in Truata
+### Software Architecture experience in Truata
 
-# Architectural Approach for Privacy-Enhanced Analytics Platform (PEAP) and Calibrate
+#### Architectural Approach for Privacy-Enhanced Analytics Platform (PEAP) and Calibrate
 
 I will outline the approach I used for designing the architecture of the two products mentioned above.
 
 My guiding principles, patterns, and practices were derived from **Domain Driven Design** and the [Reactive Manifesto](https://www.reactivemanifesto.org) for implementing reactive systems. I focused on identifying Bounding Contexts, creating Context Maps, developing a shared Ubiquitous Language, and defining the appropriate domain Events and Entities. I then applied the principles of the Reactive Manifesto—**Responsive**, **Elastic**, **Message Driven**, and **Resilient**—to select the right patterns, modules, and components for the implementation.
 
-## Privacy-Enhanced Analytics Platform (PEAP)
+- Privacy-Enhanced Analytics Platform (PEAP)
 
 For the **Privacy-Enhanced Analytics Platform (PEAP)**, I developed an **event-driven architecture** utilising Angular for the front end. The senior engineer I hired to lead the UI team was an expert in Angular. The backend was built using microservices in Java, deployed with containers, and incorporated **RabbitMQ** as the message broker. The data engineering aspect utilised **KNIME**, a data science platform that facilitated the execution and management of Spark jobs. Although the data engineering solution was more complex than necessary at the time, it represented the "legacy" method for running Jupyter notebooks within a Spark cluster environment. 
 
 The primary reason for proposing an event-driven integration was to abstract the data engineering platform through events, enabling future replacement with a simpler solution.
 
-## Calibrate Product
+- Calibrate Product
 
 For the **Calibrate product**, I designed a similar architecture, accommodating the long-running data processing elements essential to the solution. This design also aimed to support potential data processing clusters that clients might already have in place, including Databricks subscriptions, personal Spark Cluster environments, or other technologies like Apache Beam or Apache Flink.
 
@@ -185,13 +182,16 @@ The application architecture adopted the **micro-kernel pattern**, featuring a c
 
 I also collaborated with the DevOps engineers to deploy the application as a **SaaS product** within the **Azure Marketplace** and **IBM’s Cloud Pak for Data**.
 
-## Security Measures and Data Access
+### Security Measures and Data Access
 
 For both applications, I implemented an internal **Certification Authority** to facilitate mutual TLS identification using digital certificates for secure communication between the majority of components, particularly when connecting to RabbitMQ.
 
 I proposed and designed abstraction layers for the data access facility in Calibrate, allowing for seamless integration of any data source for both ingestion and output, with capabilities for data streaming input and output. The authorisation mechanism relied on signed **JWTs** and authorisation claims to facilitate integration with any client-specific Identity Management solutions, as well as to support the development of a standalone product utilising an internal **Keycloak** IdM.
 
-Work experience in Jaguar LandRover (JLR) Jan 2019 to June 2020
+## Jaguar LandRover (JLR) Jan 2019 to June 2020
+
+**Position**: Software Development Manager
+
 Software Engineering Management
 I was brought in as software development manager to grow and develop 6 engineers engaged in a few separate projects, of which I was running only one, the Digital Payments Gateway product called Digital Wallet.
 As people manager I had worked with the engineers under my direction to align their career aspirations with the company’s development plans. Through regular 1-1s and ad-hoc meetings I helped them align their career aspirations with the company’s business goals.
